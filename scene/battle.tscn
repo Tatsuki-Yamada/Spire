@@ -1,9 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckyn1rqbw205x"]
+[gd_scene load_steps=2 format=3 uid="uid://ckyn1rqbw205x"]
 
 [ext_resource type="Script" path="res://scene/battle.gd" id="1_swm4g"]
-[ext_resource type="PackedScene" uid="uid://cxafrsim85gux" path="res://object/card.tscn" id="2_uau5g"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_swm4g")
-
-[node name="card" parent="." instance=ExtResource("2_uau5g")]
