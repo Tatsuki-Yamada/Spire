@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxafrsim85gux"]
+
+[ext_resource type="Texture2D" uid="uid://bi7pkjh6nvk2f" path="res://sprite/White_Rectangle_256x256.png" id="1_vfhsb"]
+
+[node name="card" type="Node2D"]
+position = Vector2(600, 600)
+
+[node name="background" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.606)
+texture = ExtResource("1_vfhsb")
